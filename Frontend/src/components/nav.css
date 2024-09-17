@@ -1,0 +1,30 @@
+.navbar{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+    position: fixed;
+    width: 80vw;
+    color: white; 
+    padding-left: 80px;
+    cursor: pointer;
+}
+.links ul{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+
+}
+.navbar .links ul li {
+    color: white;
+    text-decoration: none;
+}
+.navbar .links .link{
+    text-decoration: none;
+}
+
+
+

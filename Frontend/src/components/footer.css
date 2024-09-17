@@ -1,0 +1,18 @@
+.f-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 30px 60px 40px 30px;
+}
+    
+.last{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.781);
+    color: wheat;
+}
+.footercolor{
+    background-color: rgba(0, 0, 0, 0.959);
+    color: white;
+
+}

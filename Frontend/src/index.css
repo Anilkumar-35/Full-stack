@@ -1,0 +1,440 @@
+
+.herophoto{
+  background: url(../public/img/frontpic.jpg);
+  height:350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.mainhero{
+  height: 100vh;
+  
+}
+.mainaavalitty{
+
+  border: 2px solid black;
+  background-color: rgba(255, 255, 255, 0.724);
+  font-size: 20px;
+  position: absolute;
+  top: 100px;
+  left: 30%;
+  padding: 30px;
+  border-radius: 10px;
+}
+.bookingbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(C:\Users\HP\Desktop\Anil\mongoDb\Hotelmangment\Frontend\public\img\bookingback.jpeg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.mainaavality{
+  display: flex;
+  gap: 70px;
+  padding-bottom: 20px;
+}
+.bookingmain{
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.578);
+  color: white;
+  width: 300px;
+
+
+}
+.bookingbox1{
+  font-size: 20px;
+}
+.bookingbox4{
+  display: flex;
+  justify-content: center;
+}
+.box4{
+  display: flex;
+}
+.box5{
+  padding-top: 40px;
+}
+.checkbutton{
+  font-size: 20px;
+}
+.caurselmain{
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.caursel{
+width: 90%;
+height: 600px;
+background: url(C:\Users\HP\Desktop\Anil\mongoDb\Hotelmangment\Frontend\public\img\caursel1.avif);
+background-size: cover;
+/* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+animation: changeImage 20s linear infinite;
+}
+@keyframes changeImage{
+  0%{
+    background: url(C:\Users\HP\Desktop\Anil\mongoDb\Hotelmangment\Frontend\public\img\caursel2.avif);
+    background-size: cover;
+  }
+  50%{
+    background: url(C:\Users\HP\Desktop\Anil\mongoDb\Hotelmangment\Frontend\public\img\caursel3.avif);
+    background-size: cover;
+
+  }
+  100%{
+    background: url(C:\Users\HP\Desktop\Anil\mongoDb\Hotelmangment\Frontend\public\img\caursel1.avif);
+    background-size: cover;
+
+  }
+  
+
+}
+
+
+.gallery{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+.maincontact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(C:\Users\HP\Desktop\Anil\mongoDb\Hotelmangment\Frontend\public\img\contact.png);
+  background-size: cover;
+  height: 100vh;
+}
+.contactlinks{
+  display: flex;
+  gap: 20px;
+  padding: 100px;
+  background-color: rgba(128, 128, 128, 0.712);
+}
+.boxescontact1{
+  height: 100px;
+  width: 170px;
+  border: 2px solid gray;
+  background-color: rgba(52, 45, 45, 0.566);
+  padding: 35px ;
+  background: url(C:\Users\HP\Desktop\Anil\mongoDb\Hotelmangment\Frontend\public\img\phone.png);
+  background-size: 200px 140px;
+  color: black;
+
+
+}
+.boxescontact2{
+  height: 100px;
+  width: 170px;
+  border: 2px solid gray;
+  background-color: rgba(52, 45, 45, 0.566);
+  padding: 35px ;
+  background: url(C:\Users\HP\Desktop\Anil\mongoDb\Hotelmangment\Frontend\public\img\location.png);
+  background-size: 200px 160px;
+}
+.boxescontact3{
+  height: 100px;
+  width: 170px;
+  border: 2px solid gray;
+ 
+  background-color: rgba(52, 45, 45, 0.566);
+  padding: 35px ;
+  background: url(C:\Users\HP\Desktop\Anil\mongoDb\Hotelmangment\Frontend\public\img\gmail.jpeg);
+  background-size: 210px 170px;
+}
+.boxescontact4{
+  height: 100px;
+  width: 170px;
+  border: 2px solid gray;
+  background-color: rgba(52, 45, 45, 0.566);
+  padding: 35px ;
+  background: url(C:\Users\HP\Desktop\Anil\mongoDb\Hotelmangment\Frontend\public\img\follow.png);
+  background-size: 240px 170px;
+}
+.iconssize{
+  font-size: 27px;
+}
+.contactbox{
+  border: 2px solid black;
+  height: 450px;
+  padding: 40px;
+  width: 200px;
+  font-size: 18px;
+  border-radius: 40px;
+ background-color: rgba(255, 255, 255, 0.662);
+}
+.abc{
+  display: flex;
+  background-color: #2b1d0e;
+  color: white;
+  padding: 20px;
+
+}
+.roomtypebox123{
+  height: 500px;
+  width: 700px;
+  
+}
+.roomssimg1{
+  height: 450px;
+  width: 450px;
+}
+
+.roomtypebox12{
+padding: 30px;
+
+}
+.flexrooms{
+  display: flex;
+  gap: 30px;
+  padding-left: 100px;
+}
+.ourrooms{
+  font-size: 80px;
+
+}
+.imgcoursel{
+  width: 100px;
+  height: 100px;
+  transition: 0.3s;
+}
+.contactbutton{
+
+  font-size: 19px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: rgb(99, 162, 187);
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.imgcoursel:hover{
+  width: 220px;
+  height: 200px;
+  border: 2px solid wheat;
+  margin: 3px;
+}
+.textcontact{
+  font-size: 16px;
+}
+.textcontact1{
+  font-size: 17px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.first-container{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.498);
+}
+.aboutimg1{
+  height: 300px;
+  width: 300px;
+  border: solid 3px whitesmoke;
+}
+.aboutimg2{
+  height: 200px;
+  width: 200px;
+  border: solid 3px whitesmoke;
+
+}
+.aboutimg3{
+  height: 200px;
+  width: 200px;
+  border: solid 3px whitesmoke;
+}
+.aboutimg4{
+  height: 300px;
+  width: 300px;
+  border: solid 3px whitesmoke;
+}
+.aboutsecondbox{
+  padding: 30px;
+}
+.mainabout{
+  background: url(C:\Users\HP\Desktop\Anil\mongoDb\Hotelmangment\Frontend\public\img\aboutbackground.webp);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: initial;
+
+}
+.aboutfirstbox{
+  color: white;
+
+  padding: 10px;
+  padding-top: 150px;
+
+}
+.welcomeabout{
+  font-size: 50px;
+}
+.aboutus{
+  color: black;
+  height: 500px;
+  background: url(C:\Users\HP\Desktop\Anil\mongoDb\Hotelmangment\Frontend\public\img\aboutus.jpeg);
+  background-size: cover;
+}
+.hrfhome{
+padding-left: 70px;
+}
+.aboutt{
+  font-size: 90px;
+  padding-top: 150px;
+  padding-left: 80px;
+}
+.aboutus a{
+  font-size: 26px;
+}
+.scond-container{
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  background-color: rgba(245, 222, 179, 0.58);
+}
+.backscond{
+  background: url(C:\Users\HP\Desktop\Anil\mongoDb\Hotelmangment\Frontend\public\img\abouttravel.jpeg);
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+.backevent{
+  background: url(C:\Users\HP\Desktop\Anil\mongoDb\Hotelmangment\Frontend\public\img\aboutevent.webp);
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+
+}
+.backres{
+  background: url(C:\Users\HP\Desktop\Anil\mongoDb\Hotelmangment\Frontend\public\img\aboutbeach.jpeg);
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+.backevent:hover{
+  height: 500px;
+  width: 600px;
+  cursor: pointer;
+  font-size: 30px;
+  color: yellow;
+
+}
+.backres:hover{
+  height: 500px;
+  width: 600px;
+  cursor: pointer;
+  font-size: 30px;
+  color: yellow;
+
+
+  
+}
+.backscond:hover{
+  height: 500px;
+  width: 600px;
+  cursor: pointer;
+  font-size: 30px;
+  color: yellow;
+}
+.serivices{
+  font-size: 32px;
+}
+.tourvedio{
+  color: white;
+}
+.vediocontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.startbutton{
+  color: white;
+  position: absolute;
+  height: 360px;
+  width: 640px;
+  background-color: rgba(0, 0, 0, 0.265);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hrfstart{
+color: white;
+background-color: rgba(0, 0, 0, 0);
+}
+.third-container{
+  background-color: rgba(0, 0, 0, 0.473);
+}
+.bookingguests{
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  gap: 20px;
+}
+.bookingincreas{
+  height: 26px;
+}
+.bookingbox2{
+  display: flex;
+}
+.bookedimg{
+  height: 50px;
+  width: 100px;
+}
+.acbookedroom{
+  display: flex;
+  gap: 150px;
+}
+.accbutton{
+  height: 25px;
+  margin-top: 10px;
+}
+.nonaccbutton{
+  height: 25px;
+}
+.nonbuttonac{
+  padding: 9px;
+}
+.roomscard1{
+  padding: 10px;
+}
+.roomscard2{
+  padding: 10px;
+}
+.roomscard1 h1{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.roomscard1 h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .roomscard2 h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .roomscard2 h3{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }

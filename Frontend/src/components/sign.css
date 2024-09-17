@@ -1,0 +1,30 @@
+.maincontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 500px;
+    height: 100VH;
+    background: url(C:\Users\HP\Desktop\Anil\mongoDb\Hotelmangment\Frontend\public\img\sign.jpg);
+    background-size: cover;
+  }
+  .boxcontainer{
+    border: 2px solid black;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.388);
+    color: white;
+    font-size: 17px;
+    width: 220px;
+    padding-left: 100px;
+  }
+  .buuu{
+    font-size: 18px;
+  }
+  .buu1{
+    font-size: 15px;
+    color: white;
+    padding-left: 30px;
+  }
+  .boxxes{
+    font-size: 19px;
+    border-radius: 15%;
+  }
